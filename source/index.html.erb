@@ -1,10 +1,58 @@
----
-title: Le Wagon Middleman boilerplate
----
-
-<div class="welcome text-center padded">
-  <h1>Welcome to Middleman</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p>
+<body>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/justice.jpg');">
+  <div class="banner-content">
+    <h1>Welcome to marcdavi.davi</h1>
+    <p>Plus qu'un avocat</p>
+  </div>
 </div>
+
+<div class="text-center padded" id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "fast.png", class:"icons" %>
+        <h2>Rapidité</h2>
+        <p>Capacité de travail décuplée (secret maison)</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "loyalty.png", class:"icons" %>
+        <h2>Loyauté</h2>
+        <p>Il n'a qu'une parole</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "spy.png", class:"icons" %>
+          <h2>Discrétion</h2>
+          <p>On peut lui faire confiance</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "approved.png", class:"icons" %>
+          <h2>Approuvé</h2>
+          <p>Très fort taux de satisfaction</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper-grey text-center padded">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+      <%= image_tag "avocado.jpg", id:"photo-dress" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <h2>Un devis gratuit ?</h2>
+        <p>Laissez votre mail, Pascal vous recontacte</p>
+        <div class="form text-center">
+          <form action="#">
+            <label for="your-email">Votre mail</label>
+            <input type="email" id="your-email" placeholder="petite@gmail.com">
+            <input type="submit" value="Submit" class="btn btn-primary">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>

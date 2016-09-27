@@ -1,4 +1,19 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+jimmy:
+  owner_name: Jimmy Page
+  picture: pacific.jpg
+  owner_picture: jimmy.jpg
+  name: Jimmy's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  flat_rating: 4
+  max_guests_number: 2
+  bathrooms: 1
+  bed_type: Real Bed
+  bedrooms: 1
+  beds: 1
+  property_type: Apartment
+  room_type: Entire home/apt
+  kitchen: false
+  tv: false
+  welcome_drink: true

@@ -23,3 +23,40 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+.wrapper-form {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 70px);;
+  background-size: cover;
+}
+
+#photo-dress {
+  width: 275px;
+  border-radius: 50%;
+}
+
+#footer {
+  background-color: $gray-dark;
+  padding: 30px;
+  a{
+  font-size: 30px;
+  margin-top: 20px;
+  color: #CCCCCC;
+  }
+  a:hover{
+  color: $orange;
+  text-decoration: none;
+  }
+  p{
+  color: #CCCCCC;
+  }
+}
+
+.wrapper-grey {
+  background-color: $gray-lighter;
+}
+
+.icons {
+  width : 75px;
+}
